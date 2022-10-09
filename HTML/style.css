@@ -1,0 +1,54 @@
+body{
+    margin :0;
+    padding:0;
+    background-size:cover;
+    font-family: 'Google san','Noto sans myanmar UI'
+    ,'Courier New', Courier, monospace;
+}
+box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    width:25rem;
+    padding:2.5rem;
+    box-sizing: border-box;
+    border:1px solid #dadce0;
+    border-radius: 8px;
+    
+
+}
+.G{
+    color:#1a0dab;
+    size: 40px ;
+    text-decoration: none;
+    -webkit-tap-highlight-color:
+     rgba(0,0,0,.1);
+     display: flex;
+     justify-content: center;
+     padding-bottom:15px ;
+}
+.O{
+    color:red;
+    size: 40px;
+    padding: 0;
+    display: flex;
+    justify-content:right;
+    padding-bottom:15px ;
+}
+.o{
+    color:yellow;
+    size: 40px;
+}
+.g{
+    color:blue;
+    size: 40px;
+}
+.l{
+    color: green;
+    size: 40px;
+}
+.e{
+    color:red;
+    size: 40px;
+}
